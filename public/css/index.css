@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    background-color: rgb(47,79,79);
+  }
+  #navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(139,69,19);
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  #navbar h2{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  #navbar ul{
+    float: right;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+     
+  }
+  button{
+    display: none;
+    float: right;
+    font-size: 30px;
+  }
+  #navbar li{
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-left: 2px white solid;
+    display: flex;
+    justify-content: center;
+  }
+  #navbar a{
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    color: white;
+    
+  }
+  #navbar li:hover {
+    background-color: white;
+    color: rgb(139,69,19);
+    transform: scale(1.1);
+  }
+  #navbar a:hover{
+    color: rgb(139,69,19);
+  }
+  #logo{
+    width: 30%;
+    float: left;
+    color: white;
+    display: flex;
+    font-family: 'Girassol', cursive;
+    justify-content: center;
+  }
+  
+  #logo h2{
+    width: 70%;
+    padding: 0px;
+    margin-left: 30px;
+  }
+  #logo img{
+    width: 40px;
+    font-size: 30px;
+    position: absolute;
+    
+  }
+  #zephsplace{
+    background-image: url(https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1400);
+    width:90%;
+    height: 100vh;
+    margin: 5%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  #zephsplace h1{
+    width:300px;
+    height: 60px;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    background-color: rgb(105,105,105);
+    padding-top: 10px;
+    font-family: 'Girassol', cursive;
+  }
