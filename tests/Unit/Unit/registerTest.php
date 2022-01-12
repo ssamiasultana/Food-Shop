@@ -15,17 +15,17 @@ class registerTest extends TestCase
     {
         $this->assertTrue(true);
     }
-    // public function test_new_user()
-    // {
-    //     $response=$this->post('/register',[
-    //     'name'=>'admin',
-    //     'email'=>'admin@gmail.com',
-    //     'email_verified_at'=>'admin@gmail.com',
-    //      'password'=>'12345678'
+     public function test_new_user()
+    {
+         $response=$this->post('/register',[
+        'name'=>'admin',
+        'email'=>'admin@gmail.com',
+        'email_verified_at'=>'admin@gmail.com',
+        'password'=>'12345678'
          
-    //     ]);
-    //     $response->assertRedirect('/home');
+         ]);
+         $response->assertRedirect('/home');
         
-    // }
+     }
     
 }
